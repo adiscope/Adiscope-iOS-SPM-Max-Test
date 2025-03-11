@@ -9,12 +9,21 @@ let package = Package(
     products: [
         .library(
             name: "AdiscopeMediaMax",
-            targets: ["AdiscopeMediaMax"]),
+            targets: ["AdiscopeMediaMaxTarget"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS.git", from: "12.4.1")
     ],
     targets: [
+        .target(
+          name: "AdiscopeMediaMaxTarget",
+          dependencies: [
+            .target(name: "AdiscopeMediaMax"),
+            .product(name: "AppLovinSDK", package: "AppLovin-MAX-SDK-iOS")
+          ],
+          path: "AdiscopeMediaMaxTarget"
+        ),
         .binaryTarget(
           name: "AdiscopeMediaMax",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.15/AdiscopeMediaMax.xcframework.zip",
