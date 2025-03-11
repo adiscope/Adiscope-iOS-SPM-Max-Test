@@ -11,11 +11,14 @@ let package = Package(
             name: "AdiscopeMediaMax",
             targets: ["AdiscopeMediaMax"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS.git", from: "12.4.1")
+    ],
     targets: [
         .binaryTarget(
           name: "AdiscopeMediaMax",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.14/AdiscopeMediaMax.xcframework.zip",
-          checksum: "14a4af2da84d06490852186a11e183fa057f351512e5e656cfdf3c27253895d5"
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.15/AdiscopeMediaMax.xcframework.zip",
+          checksum: "be6d3a352f2c159d3e6f34c3e6037c40ffe9d11fcb095a19eeb6a053d31a17fd"
         ),
     ]
 )
