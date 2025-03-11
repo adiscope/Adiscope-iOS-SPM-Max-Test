@@ -13,14 +13,14 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS.git", from: "12.4.1")
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "12.4.1")
     ],
     targets: [
         .target(
           name: "AdiscopeMediaMaxTarget",
           dependencies: [
             .target(name: "AdiscopeMediaMax"),
-            .product(name: "AppLovinSDK", package: "AppLovin-MAX-SDK-iOS")
+            .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package")
           ],
           path: "AdiscopeMediaMaxTarget"
         ),
