@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
           name: "AdiscopeMediaMax",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.15/AdiscopeMediaMax.xcframework.zip",
-          checksum: "be6d3a352f2c159d3e6f34c3e6037c40ffe9d11fcb095a19eeb6a053d31a17fd"
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.16/AdiscopeMediaMax.xcframework.zip",
+          checksum: "484db4bf6949b69fc8a3ce214e40dec278e4cb69b1d008b0d7793642aed8939a"
         ),
 //        .binaryTarget(
 //          name: "AdiscopeMediaMaxAdapterInMobi",
