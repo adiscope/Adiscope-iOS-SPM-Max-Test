@@ -22,7 +22,11 @@ let package = Package(
             .target(name: "AdiscopeMediaMax"),
             .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
             .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
-            .target(name: "BidMachine")
+            .target(name: "BidMachine"),
+            .target(name: "OMSDK_Appodeal"),
+            .target(name: "StackModules"),
+            .target(name: "StackProductPresentation"),
+            .target(name: "StackRendering")
           ],
           path: "AdiscopeMediaMaxTarget"
         ),
