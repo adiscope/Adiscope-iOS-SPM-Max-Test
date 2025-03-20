@@ -1,5 +1,5 @@
 {
-  "originHash" : "32152a2ed7896dd98c915aabd3919362354037b356eba2c12b8b76a900abb4f5",
+  "originHash" : "1a43073a5ed0fef74a1922412f1dc47b6b746d266dc39d1ca47d472057864b86",
   "pins" : [
     {
       "identity" : "applovin-max-swift-package",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "ed8cb1fddca69b5ea52b379deb7e57ccb8d901de",
         "version" : "13.1.0"
+      }
+    },
+    {
+      "identity" : "mintegraladsdk-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
+      "state" : {
+        "revision" : "ac4b4f39db1d926a1730dfca42fe38082e11b6e6",
+        "version" : "7.7.7"
       }
     },
     {

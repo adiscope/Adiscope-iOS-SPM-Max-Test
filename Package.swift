@@ -16,6 +16,7 @@ let package = Package(
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.1.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.2.0"),
         .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.4.4"),
+        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "7.7.7"),
     ],
     targets: [
         .target(
@@ -23,14 +24,16 @@ let package = Package(
           dependencies: [
             .target(name: "AdiscopeMediaMax"),
             .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
-            .target(name: "AdiscopeMediaVungle"),
-            .target(name: "AdiscopeMediaMaxAdapterVungle"),
-            .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
             .target(name: "AdiscopeMediaAdManager"),
             .target(name: "AdiscopeMediaAdMob"),
             .target(name: "AdiscopeMediaMaxAdapterAdManager"),
             .target(name: "AdiscopeMediaMaxAdapterAdMob"),
             .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+            .target(name: "AdiscopeMediaVungle"),
+            .target(name: "AdiscopeMediaMaxAdapterVungle"),
+            .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
+            .target(name: "AdiscopeMediaMaxAdapterMobVista"),
+            .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
           ],
           path: "AdiscopeMediaMaxTarget"
         ),
@@ -68,6 +71,11 @@ let package = Package(
           name: "AdiscopeMediaMaxAdapterVungle",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterVungle.xcframework.zip",
           checksum: "ff8314141d8b68ed1560ea11c6374c129b7fa77e2e3c18bf2c01f3b99385d1a5"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterMobVista",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterMobVista.xcframework.zip",
+          checksum: "66cd382867257b7813786d5a192c9123192654edd06692b7bdc2b57e77f9673f"
         ),
 //        .binaryTarget(
 //          name: "InMobiSDK",
