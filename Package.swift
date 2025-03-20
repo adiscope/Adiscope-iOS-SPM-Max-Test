@@ -24,7 +24,7 @@ let package = Package(
             .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
             .target(name: "AdiscopeMediaVungle"),
             .target(name: "AdiscopeMediaMaxAdapterVungle"),
-            .product(name: "VungleAds", package: "VungleAdsSDK-SwiftPackageManager"),
+            .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
           ],
           path: "AdiscopeMediaMaxTarget"
         ),

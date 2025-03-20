@@ -1,0 +1,24 @@
+{
+  "originHash" : "c9c9259928ed44ade7a1638c4a5986944f301479366ba5f2a4190710622a7281",
+  "pins" : [
+    {
+      "identity" : "applovin-max-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "state" : {
+        "revision" : "ed8cb1fddca69b5ea52b379deb7e57ccb8d901de",
+        "version" : "13.1.0"
+      }
+    },
+    {
+      "identity" : "vungleadssdk-swiftpackagemanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
+      "state" : {
+        "revision" : "f2e059599dd6725b379675890c23591945ff433d",
+        "version" : "7.4.4"
+      }
+    }
+  ],
+  "version" : 3
+}
