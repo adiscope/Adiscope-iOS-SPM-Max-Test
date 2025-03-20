@@ -43,6 +43,10 @@ let package = Package(
             .target(name: "DTBiOSSDK"),
             .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
             .target(name: "BidMachine"),
+            .target(name: "StackModules"),
+            .target(name: "StackProductPresentation"),
+            .target(name: "StackRendering"),
+            .target(name: "OMSDK_Appodeal"),
           ],
           resources: [.copy("PAGAdSDK.bundle")]
         ),
