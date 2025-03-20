@@ -28,6 +28,10 @@ let package = Package(
             .target(name: "AdiscopeMediaAdMob"),
             .target(name: "AdiscopeMediaMaxAdapterAdManager"),
             .target(name: "AdiscopeMediaMaxAdapterAdMob"),
+            .target(name: "LiftoffMonetizeAdapter"),
+            .target(name: "MetaAdapter"),
+            .target(name: "MintegralAdapter"),
+            .target(name: "PangleAdapter"),
             .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
             .target(name: "AdiscopeMediaVungle"),
             .target(name: "AdiscopeMediaMaxAdapterVungle"),
@@ -87,6 +91,26 @@ let package = Package(
           name: "AdiscopeMediaMaxAdapterAdMob",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterAdMob.xcframework.zip",
           checksum: "5d18f8f8a417f7efd33ff3ff55637fee2a42f2077353e1d5f65f5b7aeeda4564"
+        ),
+        .binaryTarget(
+          name: "LiftoffMonetizeAdapter",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/LiftoffMonetizeAdapter.xcframework.zip",
+          checksum: "530353e53f05c11c570b2588c74156c6bd477e4e2b103dad3d0b4c07d78f2e47"
+        ),
+        .binaryTarget(
+          name: "MetaAdapter",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/MetaAdapter.xcframework.zip",
+          checksum: "cc75025eb3f804c4c152cf85a9f11f7c3279c0ac539e9f7d44a5734ff280e031"
+        ),
+        .binaryTarget(
+          name: "MintegralAdapter",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/MintegralAdapter.xcframework.zip",
+          checksum: "bd799aa8af772cc2bccc475ca52204248a76e4d25b97746734a6a51a716c06a4"
+        ),
+        .binaryTarget(
+          name: "PangleAdapter",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/PangleAdapter.xcframework.zip",
+          checksum: "f4cbbd2d462a183aadc494b0426b7a9831eb50e39adfdcf7c3fed166c4fed74d"
         ),
         .binaryTarget(
           name: "AdiscopeMediaVungle",
