@@ -49,6 +49,11 @@ let package = Package(
             .target(name: "InMobiSDK"),
             .target(name: "AdiscopeMediaMaxAdapterMoloco"),
             .target(name: "MolocoSDK"),
+            .target(name: "AdiscopeMediaMaxAdapterOgury"),
+            .target(name: "OgurySdk"),
+            .target(name: "OguryAds"),
+            .target(name: "OguryCore"),
+            .target(name: "OMSDK_Ogury"),
 //            .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
 //            .target(name: "BidMachine"),
 //            .target(name: "StackModules"),
@@ -172,6 +177,31 @@ let package = Package(
           name: "MolocoSDK",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/MolocoSDK.xcframework.zip",
           checksum: "764bb21a59487831ec167e813150c3b2aeb6256c73aea84dc60eac754d7d91b3"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterOgury",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterOgury.xcframework.zip",
+          checksum: "5a1a3a6d9a07b5780724f3991c9cacbba71543a191740fef334af5a30bd5dd91"
+        ),
+        .binaryTarget(
+          name: "OgurySdk",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/OgurySdk.xcframework.zip",
+          checksum: "e2bfcc17917f340c0bc31f539b29317744299521dcf004b22509439746921d9b"
+        ),
+        .binaryTarget(
+          name: "OguryAds",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/OguryAds.xcframework.zip",
+          checksum: "d4298c39c9ce602e51f687b763dd5ef76b5a4fa575f5897b5e59cc73f5e04d89"
+        ),
+        .binaryTarget(
+          name: "OguryCore",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/OguryCore.xcframework.zip",
+          checksum: "9d6f45f5bdf09190c5e2ccde66473f4a8096608e716b9ec1dff6ec8043b3c065"
+        ),
+        .binaryTarget(
+          name: "OMSDK_Ogury",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/OMSDK_Ogury.xcframework.zip",
+          checksum: "4be345fd2d19cbe03cc62b87dc05815389462984de3650f78da21034995385ba"
         ),
 //        .binaryTarget(
 //          name: "AdiscopeMediaMaxAdapterBidMachine",
