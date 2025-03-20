@@ -40,7 +40,7 @@ let package = Package(
             .target(name: "AdiscopeMediaMaxAdapterPangle"),
             .target(name: "PAGAdSDK"),
           ],
-          path: "AdiscopeMediaMaxTarget"
+          resources: [.copy("PAGAdSDK.bundle")]
         ),
         .binaryTarget(
           name: "AdiscopeMediaMax",
