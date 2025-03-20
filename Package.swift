@@ -43,6 +43,8 @@ let package = Package(
             .target(name: "DTBiOSSDK"),
             .target(name: "AdiscopeMediaMaxAdapterDTExchange"),
             .target(name: "IASDKCore"),
+            .target(name: "AdiscopeMediaMaxAdapterFan"),
+            .target(name: "FBAudienceNetwork"),
 //            .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
 //            .target(name: "BidMachine"),
 //            .target(name: "StackModules"),
@@ -136,6 +138,16 @@ let package = Package(
           name: "IASDKCore",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/IASDKCore.xcframework.zip",
           checksum: "85d11954350be3f4ca9feefa3b6dc101c293f9224eda254b4c0b54f647ad5516"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterFan",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterFan.xcframework.zip",
+          checksum: "de7f43bf38941df7f6b184adba22b3068c96f3479e092d81388fd9077feac68c"
+        ),
+        .binaryTarget(
+          name: "FBAudienceNetwork",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/FBAudienceNetwork.xcframework.zip",
+          checksum: "2683b5bbfee6551a192d0e87288a0498f8311e59dfa5caf5bc29184e7ed83944"
         ),
 //        .binaryTarget(
 //          name: "AdiscopeMediaMaxAdapterBidMachine",
