@@ -34,6 +34,8 @@ let package = Package(
             .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
             .target(name: "AdiscopeMediaMaxAdapterMobVista"),
             .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
+            .target(name: "AdiscopeMediaChartBoost"),
+            .target(name: "ChartboostSDK"),
           ],
           path: "AdiscopeMediaMaxTarget"
         ),
@@ -76,6 +78,16 @@ let package = Package(
           name: "AdiscopeMediaMaxAdapterMobVista",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterMobVista.xcframework.zip",
           checksum: "66cd382867257b7813786d5a192c9123192654edd06692b7bdc2b57e77f9673f"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaChartBoost",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaChartBoost.xcframework.zip",
+          checksum: "9ea56a0ecdf964bdf7bc8edd2f765e92000dfc643b2661c61b7522924d0a7934"
+        ),
+        .binaryTarget(
+          name: "ChartboostSDK",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/ChartboostSDK.xcframework.zip",
+          checksum: "768902d29c78c1dc8d7ea1da58ddd488bf33b12ef71003e9d5048bba6d60db12"
         ),
 //        .binaryTarget(
 //          name: "InMobiSDK",
