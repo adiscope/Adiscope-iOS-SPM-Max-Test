@@ -45,6 +45,8 @@ let package = Package(
             .target(name: "IASDKCore"),
             .target(name: "AdiscopeMediaMaxAdapterFan"),
             .target(name: "FBAudienceNetwork"),
+            .target(name: "AdiscopeMediaMaxAdapterInMobi"),
+            .target(name: "InMobiSDK"),
 //            .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
 //            .target(name: "BidMachine"),
 //            .target(name: "StackModules"),
@@ -148,6 +150,16 @@ let package = Package(
           name: "FBAudienceNetwork",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/FBAudienceNetwork.xcframework.zip",
           checksum: "2683b5bbfee6551a192d0e87288a0498f8311e59dfa5caf5bc29184e7ed83944"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterInMobi",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterInMobi.xcframework.zip",
+          checksum: "70860cb057ade879db2a4478f6ee78a93a691c9f41ab21b2de7e58f7be6b00b4"
+        ),
+        .binaryTarget(
+          name: "InMobiSDK",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/InMobiSDK.xcframework.zip",
+          checksum: "b78599d6bd63efe0e54e60ce3ff4437ecb083f9a30e8e072966ae7ff16308508"
         ),
 //        .binaryTarget(
 //          name: "AdiscopeMediaMaxAdapterBidMachine",
