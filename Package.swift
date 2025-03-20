@@ -39,6 +39,8 @@ let package = Package(
             .target(name: "AdiscopeMediaPangle"),
             .target(name: "AdiscopeMediaMaxAdapterPangle"),
             .target(name: "PAGAdSDK"),
+            .target(name: "AdiscopeMediaMaxAdapterAmazon"),
+            .target(name: "DTBiOSSDK"),
           ],
           resources: [.copy("PAGAdSDK.bundle")]
         ),
@@ -106,6 +108,16 @@ let package = Package(
           name: "PAGAdSDK",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/PAGAdSDK.xcframework.zip",
           checksum: "fada09e83e506b29d862a9551ee746272d39f582c47ca1315d99dfcfdfb30b7e"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterAmazon",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterAmazon.xcframework.zip",
+          checksum: "42494ed588d9d0b65f4d03ceec50c8bdebe2c4b8d4ac356008bf7a4e2e818d0b"
+        ),
+        .binaryTarget(
+          name: "DTBiOSSDK",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/DTBiOSSDK.xcframework.zip",
+          checksum: "9950cf49facd8cd21c88b4d636b641c134e20674ec9c53d157c3e20783ce7c0a"
         ),
 //        .binaryTarget(
 //          name: "InMobiSDK",
