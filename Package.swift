@@ -36,6 +36,9 @@ let package = Package(
             .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
             .target(name: "AdiscopeMediaChartBoost"),
             .target(name: "ChartboostSDK"),
+            .target(name: "AdiscopeMediaPangle"),
+            .target(name: "AdiscopeMediaMaxAdapterPangle"),
+            .target(name: "PAGAdSDK"),
           ],
           path: "AdiscopeMediaMaxTarget"
         ),
@@ -88,6 +91,21 @@ let package = Package(
           name: "ChartboostSDK",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/ChartboostSDK.xcframework.zip",
           checksum: "768902d29c78c1dc8d7ea1da58ddd488bf33b12ef71003e9d5048bba6d60db12"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaPangle",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaPangle.xcframework.zip",
+          checksum: "2fdfe52f0158913d0d9e49f69daf3bcaf0dafb1b381a791caa3da29436d4f160"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterPangle",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterPangle.xcframework.zip",
+          checksum: "6bd4592e1711a544746b0f705c13f84cbefe8157f8a5a92858224ce2260dd102"
+        ),
+        .binaryTarget(
+          name: "PAGAdSDK",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/PAGAdSDK.xcframework.zip",
+          checksum: "fada09e83e506b29d862a9551ee746272d39f582c47ca1315d99dfcfdfb30b7e"
         ),
 //        .binaryTarget(
 //          name: "InMobiSDK",
