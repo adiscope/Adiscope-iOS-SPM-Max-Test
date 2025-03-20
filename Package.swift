@@ -61,7 +61,7 @@ let package = Package(
             .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
             .target(name: "BidMachine"),
             .target(name: "StackModules"),
-            .target(name: "StackProductPresentation"),
+//            .target(name: "StackProductPresentation"),
             .target(name: "StackRendering"),
             .target(name: "OMSDK_Appodeal"),
           ],
@@ -242,11 +242,11 @@ let package = Package(
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/StackModules.xcframework.zip",
           checksum: "eb8a9dec183f58aac5c6e491788ac4cb9ba28108227372170e5ee8946ec8987e"
         ),
-        .binaryTarget(
-          name: "StackProductPresentation",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/StackProductPresentation.xcframework.zip",
-          checksum: "a02793fd53eee2b187cf5703ebd71298e56375acd3daad310958fc143df14ec0"
-        ),
+//        .binaryTarget(
+//          name: "StackProductPresentation",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/StackProductPresentation.xcframework.zip",
+//          checksum: "a02793fd53eee2b187cf5703ebd71298e56375acd3daad310958fc143df14ec0"
+//        ),
         .binaryTarget(
           name: "StackRendering",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/StackRendering.xcframework.zip",
