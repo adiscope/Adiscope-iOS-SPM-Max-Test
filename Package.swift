@@ -47,6 +47,8 @@ let package = Package(
             .target(name: "FBAudienceNetwork"),
             .target(name: "AdiscopeMediaMaxAdapterInMobi"),
             .target(name: "InMobiSDK"),
+            .target(name: "AdiscopeMediaMaxAdapterMoloco"),
+            .target(name: "MolocoSDK"),
 //            .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
 //            .target(name: "BidMachine"),
 //            .target(name: "StackModules"),
@@ -161,6 +163,16 @@ let package = Package(
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/InMobiSDK.xcframework.zip",
           checksum: "b78599d6bd63efe0e54e60ce3ff4437ecb083f9a30e8e072966ae7ff16308508"
         ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterMoloco",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterMoloco.xcframework.zip",
+          checksum: "faf6d82691323659e37825fb92f2d61c5c2a48a00acdd40a507cad4544b1a406"
+        ),
+        .binaryTarget(
+          name: "MolocoSDK",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/MolocoSDK.xcframework.zip",
+          checksum: "764bb21a59487831ec167e813150c3b2aeb6256c73aea84dc60eac754d7d91b3"
+        ),
 //        .binaryTarget(
 //          name: "AdiscopeMediaMaxAdapterBidMachine",
 //          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterBidMachine.xcframework.zip",
@@ -190,11 +202,6 @@ let package = Package(
 //          name: "OMSDK_Appodeal",
 //          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/OMSDK_Appodeal.xcframework.zip",
 //          checksum: "d04885950dabe90354ea110f4ed8eb8e298ef38c2e53127dba900198a8b88413"
-//        ),
-//        .binaryTarget(
-//          name: "InMobiSDK",
-//          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.15/InMobiSDK.xcframework.zip",
-//          checksum: "a3dd163b1a3786becd690d4ecd0c20b8f6093af8f9a8e88f8b1f2edd93e16125"
 //        ),
     ]
 )
