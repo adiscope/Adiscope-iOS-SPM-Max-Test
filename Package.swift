@@ -41,6 +41,8 @@ let package = Package(
             .target(name: "PAGAdSDK"),
             .target(name: "AdiscopeMediaMaxAdapterAmazon"),
             .target(name: "DTBiOSSDK"),
+            .target(name: "AdiscopeMediaMaxAdapterBidMachine"),
+            .target(name: "BidMachine"),
           ],
           resources: [.copy("PAGAdSDK.bundle")]
         ),
@@ -118,6 +120,16 @@ let package = Package(
           name: "DTBiOSSDK",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/DTBiOSSDK.xcframework.zip",
           checksum: "9950cf49facd8cd21c88b4d636b641c134e20674ec9c53d157c3e20783ce7c0a"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterBidMachine",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/AdiscopeMediaMaxAdapterBidMachine.xcframework.zip",
+          checksum: "73d129f4153a146512430809ae2a517b03080711f20bdbfc84151ed5f9617ac4"
+        ),
+        .binaryTarget(
+          name: "BidMachine",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.17/BidMachine.xcframework.zip",
+          checksum: "f1ae1028b316babbce2e50a342f14eb027a466cf13b9435a45cd9f12db6d0199"
         ),
 //        .binaryTarget(
 //          name: "InMobiSDK",
