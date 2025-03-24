@@ -64,6 +64,8 @@ let package = Package(
             .target(name: "StackProductPresentation"),
             .target(name: "StackRendering"),
             .target(name: "OMSDK_Appodeal"),
+            .target(name: "AdiscopeMediaMaxAdapterUnityAds"),
+            .target(name: "UnityAds"),
           ],
           resources: [.copy("PAGAdSDK.bundle")]
         ),
@@ -256,6 +258,16 @@ let package = Package(
           name: "OMSDK_Appodeal",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/OMSDK_Appodeal.xcframework.zip",
           checksum: "8b03911438e9bee6fb36aa56a29008abc2ac91fd37af4ca0d99f13ade25caccf"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterUnityAds",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.21/AdiscopeMediaMaxAdapterUnityAds.xcframework.zip",
+          checksum: "b5937802818def123417b46bf2c75a39d6c7da80c0316a389369cbc2c1e4819f"
+        ),
+        .binaryTarget(
+          name: "UnityAds",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.21/UnityAds.xcframework.zip",
+          checksum: "1f482a2dbb154abf881e524de103a1bf64b7a426b7bd07d615d6fdd61bcea5fb"
         ),
     ]
 )
