@@ -145,7 +145,7 @@ let package = Package(
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterPangle",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/AdiscopeMediaMaxAdapterPangle.zip",
-          checksum: "d62e7aa62c22247af9fd98bd403b61225aca7c3f66aa523cf159dce567872f73"
+          checksum: "9977b7a39b96d0cda7f57fecc8362d33ffaca92c51e75399f1d689ba2487e738"
         ),
         .binaryTarget(
           name: "PAGAdSDK",
