@@ -109,8 +109,8 @@ let package = Package(
         ),
         .binaryTarget(
           name: "PangleAdapter",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/PangleAdapter.xcframework.zip",
-          checksum: "f4cbbd2d462a183aadc494b0426b7a9831eb50e39adfdcf7c3fed166c4fed74d"
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/PangleAdapter.xcframework.zip",
+          checksum: "df37ff1fe52142ab61877001ab9e7ce23eb4c71686025e198174e0918aed9539"
         ),
         .binaryTarget(
           name: "AdiscopeMediaVungle",
@@ -144,13 +144,13 @@ let package = Package(
         ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterPangle",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/AdiscopeMediaMaxAdapterPangle.xcframework.zip",
-          checksum: "6bd4592e1711a544746b0f705c13f84cbefe8157f8a5a92858224ce2260dd102"
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/AdiscopeMediaMaxAdapterPangle.zip",
+          checksum: "d62e7aa62c22247af9fd98bd403b61225aca7c3f66aa523cf159dce567872f73"
         ),
         .binaryTarget(
           name: "PAGAdSDK",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/PAGAdSDK.xcframework.zip",
-          checksum: "fada09e83e506b29d862a9551ee746272d39f582c47ca1315d99dfcfdfb30b7e"
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/PAGAdSDK.xcframework.zip",
+          checksum: "01c4c0f3a91a059a14f4066e19e8af4ca0eb17b92f0b3fb785ca37dae1527121"
         ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterAmazon",
