@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -40,7 +40,7 @@ let package = Package(
             .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
             .target(name: "AdiscopeMediaChartBoost"),
             .target(name: "ChartboostSDK"),
-            .target(name: "AdiscopeMediaPangle"),
+//            .target(name: "AdiscopeMediaPangle"),
             .target(name: "AdiscopeMediaMaxAdapterPangle"),
             .target(name: "PAGAdSDK"),
             .target(name: "AdiscopeMediaMaxAdapterAmazon"),
@@ -139,11 +139,11 @@ let package = Package(
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/ChartboostSDK.xcframework.zip",
           checksum: "768902d29c78c1dc8d7ea1da58ddd488bf33b12ef71003e9d5048bba6d60db12"
         ),
-        .binaryTarget(
-          name: "AdiscopeMediaPangle",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/AdiscopeMediaPangle.xcframework.zip",
-          checksum: "2fdfe52f0158913d0d9e49f69daf3bcaf0dafb1b381a791caa3da29436d4f160"
-        ),
+//        .binaryTarget(
+//          name: "AdiscopeMediaPangle",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/AdiscopeMediaPangle.xcframework.zip",
+//          checksum: "2fdfe52f0158913d0d9e49f69daf3bcaf0dafb1b381a791caa3da29436d4f160"
+//        ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterPangle",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.21/AdiscopeMediaMaxAdapterPangle.zip",
