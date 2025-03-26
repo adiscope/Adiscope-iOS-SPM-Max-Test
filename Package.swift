@@ -17,6 +17,7 @@ let package = Package(
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.2.0"),
         .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.4.4"),
         .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "7.7.7"),
+        .package(url: "https://github.com/adiscope/Adiscope-iOS-Pangle.git", exact: "0.0.1"),
     ],
     targets: [
         .target(
@@ -42,7 +43,7 @@ let package = Package(
             .target(name: "ChartboostSDK"),
 //            .target(name: "AdiscopeMediaPangle"),
             .target(name: "AdiscopeMediaMaxAdapterPangle"),
-            .target(name: "PAGAdSDK"),
+            .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
             .target(name: "AdiscopeMediaMaxAdapterAmazon"),
             .target(name: "DTBiOSSDK"),
             .target(name: "AdiscopeMediaMaxAdapterDTExchange"),
@@ -67,7 +68,7 @@ let package = Package(
             .target(name: "AdiscopeMediaMaxAdapterUnityAds"),
             .target(name: "UnityAds"),
           ],
-          resources: [.copy("PAGAdSDK.bundle")]
+          path: "Sources"
         ),
         .binaryTarget(
           name: "AdiscopeMediaMax",
@@ -149,11 +150,11 @@ let package = Package(
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.21/AdiscopeMediaMaxAdapterPangle.zip",
           checksum: "792053fe26450afc533baad1b2c6cad13ea293fa7eaca6e164ce1775499ed54d"
         ),
-        .binaryTarget(
-          name: "PAGAdSDK",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/PAGAdSDK.xcframework.zip",
-          checksum: "01c4c0f3a91a059a14f4066e19e8af4ca0eb17b92f0b3fb785ca37dae1527121"
-        ),
+//        .binaryTarget(
+//          name: "PAGAdSDK",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.19/PAGAdSDK.xcframework.zip",
+//          checksum: "01c4c0f3a91a059a14f4066e19e8af4ca0eb17b92f0b3fb785ca37dae1527121"
+//        ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterAmazon",
           url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.0.18/AdiscopeMediaMaxAdapterAmazon.xcframework.zip",
