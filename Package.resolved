@@ -1,33 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "adiscope-ios-pangle",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/adiscope/Adiscope-iOS-Pangle.git",
-      "state" : {
-        "revision" : "0e31060f5307ffba57188475f6145a3e2f7ab751",
-        "version" : "0.0.1"
-      }
-    },
-    {
-      "identity" : "applovin-max-swift-package",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
-      "state" : {
-        "revision" : "ed8cb1fddca69b5ea52b379deb7e57ccb8d901de",
-        "version" : "13.1.0"
-      }
-    },
-    {
-      "identity" : "mintegraladsdk-swift-package",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
-      "state" : {
-        "revision" : "ac4b4f39db1d926a1730dfca42fe38082e11b6e6",
-        "version" : "7.7.7"
-      }
-    },
-    {
       "identity" : "swift-package-manager-google-mobile-ads",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -43,15 +16,6 @@
       "state" : {
         "revision" : "708a282840c2171ee63bd93b87afa49fe507d70e",
         "version" : "2.7.0"
-      }
-    },
-    {
-      "identity" : "vungleadssdk-swiftpackagemanager",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
-      "state" : {
-        "revision" : "f2e059599dd6725b379675890c23591945ff433d",
-        "version" : "7.4.4"
       }
     }
   ],
