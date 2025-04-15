@@ -14,14 +14,16 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.1.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.2.0"),
     ],
     targets: [
         .target(
             name: "AdiscopeMediaMaxTarget",
             dependencies: [
                 .target(name: "AdiscopeMediaMax"),
-                .target(name: "AdiscopeAdEvent"),
+                .target(name: "AdiscopeMediaAdManager"),
                 .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
+                .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
             ],
             path: "Sources"
         ),
@@ -31,9 +33,9 @@ let package = Package(
             checksum: "1d9862146d023b022db802a725f1f8373dfd65c3a64193b8be10924592fa57d4"
         ),
         .binaryTarget(
-            name: "AdiscopeAdEvent",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.0/AdiscopeAdEvent.zip",
-            checksum: "69d053c142cd116ccf7b068a9e1c3be62895653127861851ace4982bb4684d03"
+            name: "AdiscopeMediaAdManager",
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaAdManager.zip",
+            checksum: "d4532298f790bf12f64a74792243853b541bff4cbb1153546aa9814dd81793f8"
         ),
     ]
 )
