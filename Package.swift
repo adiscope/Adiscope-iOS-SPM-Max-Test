@@ -24,6 +24,7 @@ let package = Package(
             name: "AdiscopeMediaMaxTarget",
             dependencies: [
                 .target(name: "AdiscopeMediaMax"),
+                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
                 .target(name: "AdiscopeMediaAdMob"),
                 .target(name: "LiftoffMonetizeAdapter"),
                 .target(name: "MetaAdapter"),
