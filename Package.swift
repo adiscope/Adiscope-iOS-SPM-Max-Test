@@ -24,6 +24,7 @@ let package = Package(
           name: "AdiscopeMediaMaxTarget",
           dependencies: [
             .target(name: "AdiscopeMediaMax"),
+            .target(name: "AdiscopeAdEvent"),
             .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
             .target(name: "AdiscopeMediaAdManager"),
             .target(name: "AdiscopeMediaAdMob"),
@@ -69,6 +70,11 @@ let package = Package(
             .target(name: "UnityAds"),
           ],
           path: "Sources"
+        ),
+        .binaryTarget(
+            name: "AdiscopeAdEvent",
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeAdEvent.zip",
+            checksum: "69d053c142cd116ccf7b068a9e1c3be62895653127861851ace4982bb4684d03"
         ),
         .binaryTarget(
           name: "AdiscopeMediaMax",
