@@ -47,8 +47,6 @@ let package = Package(
             .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
             .target(name: "AdiscopeMediaMaxAdapterAmazon"),
             .target(name: "DTBiOSSDK"),
-            .target(name: "AdiscopeMediaMaxAdapterDTExchange"),
-            .target(name: "IASDKCore"),
             .target(name: "AdiscopeMediaMaxAdapterFan"),
             .target(name: "FBAudienceNetwork"),
             .target(name: "AdiscopeMediaMaxAdapterInMobi"),
@@ -165,16 +163,6 @@ let package = Package(
           name: "DTBiOSSDK",
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/DTBiOSSDK.xcframework.zip",
           checksum: "9950cf49facd8cd21c88b4d636b641c134e20674ec9c53d157c3e20783ce7c0a"
-        ),
-        .binaryTarget(
-          name: "AdiscopeMediaMaxAdapterDTExchange",
-          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaMaxAdapterDTExchange.zip",
-          checksum: "0d47d6ee4f7e7a381f81fe97e1d8b1f4873090ecfac0b9b798345e6eccf38acd"
-        ),
-        .binaryTarget(
-          name: "IASDKCore",
-          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/IASDKCore.xcframework.zip",
-          checksum: "85d11954350be3f4ca9feefa3b6dc101c293f9224eda254b4c0b54f647ad5516"
         ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterFan",
