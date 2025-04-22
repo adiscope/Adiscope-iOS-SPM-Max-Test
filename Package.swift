@@ -31,7 +31,7 @@ let package = Package(
             .target(name: "AdiscopeMediaMaxAdapterAdManager"),
             .target(name: "AdiscopeMediaMaxAdapterAdMob"),
             .target(name: "LiftoffMonetizeAdapter"),
-            .target(name: "MetaAdapter"),
+//            .target(name: "MetaAdapter"),
             .target(name: "MintegralAdapter"),
             .target(name: "PangleAdapter"),
             .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
@@ -104,11 +104,11 @@ let package = Package(
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/LiftoffMonetizeAdapter.xcframework.zip",
           checksum: "530353e53f05c11c570b2588c74156c6bd477e4e2b103dad3d0b4c07d78f2e47"
         ),
-        .binaryTarget(
-          name: "MetaAdapter",
-          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/MetaAdapter.xcframework.zip",
-          checksum: "cc75025eb3f804c4c152cf85a9f11f7c3279c0ac539e9f7d44a5734ff280e031"
-        ),
+//        .binaryTarget(
+//          name: "MetaAdapter",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/MetaAdapter.xcframework.zip",
+//          checksum: "cc75025eb3f804c4c152cf85a9f11f7c3279c0ac539e9f7d44a5734ff280e031"
+//        ),
         .binaryTarget(
           name: "MintegralAdapter",
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/MintegralAdapter.xcframework.zip",
