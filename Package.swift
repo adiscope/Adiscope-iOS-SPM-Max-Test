@@ -171,7 +171,7 @@ let package = Package(
         ),
         .binaryTarget(
           name: "FBAudienceNetwork",
-          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/FBAudienceNetwork.xcframework.zip",
+          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/FBAudienceNetwork.zip",
           checksum: "d876b66ebf127643cfe0849763014017fdd71f2c4be07c313a3a39b797967e78"
         ),
         .binaryTarget(
