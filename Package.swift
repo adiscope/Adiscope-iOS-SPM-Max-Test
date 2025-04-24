@@ -47,8 +47,8 @@ let package = Package(
             .product(name: "AdiscopeWithPangle", package: "Adiscope-iOS-Pangle"),
             .target(name: "AdiscopeMediaMaxAdapterAmazon"),
             .target(name: "DTBiOSSDK"),
-            .target(name: "AdiscopeMediaMaxAdapterFan"),
-            .target(name: "FBAudienceNetwork"),
+//            .target(name: "AdiscopeMediaMaxAdapterFan"),
+//            .target(name: "FBAudienceNetwork"),
             .target(name: "AdiscopeMediaMaxAdapterInMobi"),
             .target(name: "InMobiSDK"),
             .target(name: "AdiscopeMediaMaxAdapterMoloco"),
@@ -164,16 +164,16 @@ let package = Package(
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/DTBiOSSDK.xcframework.zip",
           checksum: "9950cf49facd8cd21c88b4d636b641c134e20674ec9c53d157c3e20783ce7c0a"
         ),
-        .binaryTarget(
-          name: "AdiscopeMediaMaxAdapterFan",
-          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaMaxAdapterFan.zip",
-          checksum: "06e54d7d9c897537e1c3be9bd66db2d0d68c538e2a5b65703a982259d576211e"
-        ),
-        .binaryTarget(
-          name: "FBAudienceNetwork",
-          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/FBAudienceNetwork.zip",
-          checksum: "d876b66ebf127643cfe0849763014017fdd71f2c4be07c313a3a39b797967e78"
-        ),
+//        .binaryTarget(
+//          name: "AdiscopeMediaMaxAdapterFan",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaMaxAdapterFan.zip",
+//          checksum: "06e54d7d9c897537e1c3be9bd66db2d0d68c538e2a5b65703a982259d576211e"
+//        ),
+//        .binaryTarget(
+//          name: "FBAudienceNetwork",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/FBAudienceNetwork.zip",
+//          checksum: "d876b66ebf127643cfe0849763014017fdd71f2c4be07c313a3a39b797967e78"
+//        ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterInMobi",
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaMaxAdapterInMobi.zip",
