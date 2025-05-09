@@ -41,6 +41,7 @@ let package = Package(
             .target(name: "AdiscopeMediaMaxAdapterMobVista"),
             .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
             .target(name: "AdiscopeMediaChartBoost"),
+            .target(name: "AdiscopeMediaMaxAdapterChartBoost"),
             .target(name: "ChartboostSDK"),
             .target(name: "AdiscopeMediaPangle"),
             .target(name: "AdiscopeMediaMaxAdapterPangle"),
@@ -66,6 +67,8 @@ let package = Package(
             .target(name: "OMSDK_Appodeal"),
             .target(name: "AdiscopeMediaMaxAdapterUnityAds"),
             .target(name: "UnityAds"),
+            .target(name: "AdiscopeMediaMaxAdapterIronSource"),
+            .target(name: "IronSource"),
           ],
           path: "Sources"
         ),
@@ -138,6 +141,11 @@ let package = Package(
           name: "AdiscopeMediaChartBoost",
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/AdiscopeMediaChartBoost.zip",
           checksum: "841c1bc563f316ba8b6b2fcb389602209d39afa1c8a468a7e07960dc25393b4f"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterChartBoost",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterChartBoost.zip",
+          checksum: "ae4e1db8d9a0297bb1826955cce8add2cb984e870722fb1e3b2722f135c7033b"
         ),
         .binaryTarget(
           name: "ChartboostSDK",
@@ -258,6 +266,16 @@ let package = Package(
           name: "UnityAds",
           url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/UnityAds.xcframework.zip",
           checksum: "1f482a2dbb154abf881e524de103a1bf64b7a426b7bd07d615d6fdd61bcea5fb"
+        ),
+        .binaryTarget(
+          name: "AdiscopeMediaMaxAdapterIronSource",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterIronSource.zip.zip",
+          checksum: "ae4e1db8d9a0297bb1826955cce8add2cb984e870722fb1e3b2722f135c7033b"
+        ),
+        .binaryTarget(
+          name: "IronSource",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/IronSource.xcframework.zip",
+          checksum: "f97df45f01be96db9bbbaa2f82f19850fed3d3b2916de2f3cbebbcee5b6916d6"
         ),
     ]
 )
