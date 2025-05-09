@@ -269,7 +269,7 @@ let package = Package(
         ),
         .binaryTarget(
           name: "AdiscopeMediaMaxAdapterIronSource",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterIronSource.zip.zip",
+          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterIronSource.zip",
           checksum: "ae4e1db8d9a0297bb1826955cce8add2cb984e870722fb1e3b2722f135c7033b"
         ),
         .binaryTarget(
