@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.1.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.2.0"),
         .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.4.4"),
-        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "7.7.7"),
+//        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "7.7.7"),
         .package(url: "https://github.com/adiscope/Adiscope-iOS-Pangle.git", exact: "4.2.0"),
     ],
     targets: [
@@ -37,7 +37,7 @@ let package = Package(
             .target(name: "AdiscopeMediaMaxAdapterChartBoost"),
             .target(name: "AdiscopeMediaMaxAdapterInMobi"),
             .target(name: "AdiscopeMediaMaxAdapterIronSource"),
-            .target(name: "AdiscopeMediaMaxAdapterMobVista"),
+//            .target(name: "AdiscopeMediaMaxAdapterMobVista"),
             .target(name: "AdiscopeMediaMaxAdapterMoloco"),
             .target(name: "AdiscopeMediaMaxAdapterPangle"),
             .target(name: "AdiscopeMediaMaxAdapterUnityAds"),
@@ -62,7 +62,7 @@ let package = Package(
             .target(name: "BidMachine"),
             .target(name: "InMobiSDK"),
             .target(name: "IronSource"),
-            .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
+//            .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
             .target(name: "MolocoSDK"),
             .target(name: "StackModules"),
             .target(name: "StackProductPresentation"),
@@ -142,11 +142,11 @@ let package = Package(
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterIronSource.zip",
             checksum: "d2db318d283de9d95978f0fdbe67edeb0b6eefa1b2cd5586061bc27fb058b31b"
         ),
-        .binaryTarget(
-            name: "AdiscopeMediaMaxAdapterMobVista",
-            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterMobVista.zip",
-            checksum: "c1c1ef81a589f01e98f3bad93752722119d4e9d829b500f381f128e63cbba12e"
-        ),
+//        .binaryTarget(
+//            name: "AdiscopeMediaMaxAdapterMobVista",
+//            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterMobVista.zip",
+//            checksum: "c1c1ef81a589f01e98f3bad93752722119d4e9d829b500f381f128e63cbba12e"
+//        ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMoloco",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/AdiscopeMediaMaxAdapterMoloco.zip",
