@@ -72,7 +72,7 @@ let package = Package(
           ],
           path: "Sources",
           linkerSettings: [
-              .linkedLibrary("z"),
+              .linkedLibrary("resolv"),
               .linkedLibrary("bz2"),
               .linkedLibrary("c++abi"),
               .linkedLibrary("c++"),
