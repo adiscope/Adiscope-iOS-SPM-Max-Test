@@ -70,7 +70,13 @@ let package = Package(
             .target(name: "OMSDK_Appodeal"),
             .target(name: "UnityAds"),
           ],
-          path: "Sources"
+          path: "Sources",
+          linkerSettings: [
+              .linkedLibrary("z"),
+              .linkedLibrary("bz2"),
+              .linkedLibrary("c++abi"),
+              .linkedLibrary("c++"),
+          ]
         ),
         .binaryTarget(
             name: "AdiscopeMediaMax",
