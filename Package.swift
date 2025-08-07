@@ -52,7 +52,7 @@ let package = Package(
 //            .target(name: "OMSDK_Ogury"),
             .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
             .target(name: "LiftoffMonetizeAdapter"),
-            .target(name: "MintegralAdapter"),
+//            .target(name: "MintegralAdapter"),
             .target(name: "PangleAdapter"),
             .target(name: "ChartboostSDK"),
             .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager"),
@@ -218,11 +218,11 @@ let package = Package(
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/LiftoffMonetizeAdapter.xcframework.zip",
             checksum: "530353e53f05c11c570b2588c74156c6bd477e4e2b103dad3d0b4c07d78f2e47"
         ),
-        .binaryTarget(
-            name: "MintegralAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/MintegralAdapter.xcframework.zip",
-            checksum: "bd799aa8af772cc2bccc475ca52204248a76e4d25b97746734a6a51a716c06a4"
-        ),
+//        .binaryTarget(
+//            name: "MintegralAdapter",
+//            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/MintegralAdapter.xcframework.zip",
+//            checksum: "bd799aa8af772cc2bccc475ca52204248a76e4d25b97746734a6a51a716c06a4"
+//        ),
         .binaryTarget(
             name: "PangleAdapter",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/PangleAdapter.xcframework.zip",
