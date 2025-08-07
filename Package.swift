@@ -72,10 +72,11 @@ let package = Package(
           ],
           path: "Sources",
           linkerSettings: [
-              .linkedLibrary("resolv"),
-              .linkedLibrary("bz2"),
-              .linkedLibrary("c++abi"),
-              .linkedLibrary("c++"),
+            .linkedFramework("Accelerate" ),
+            .linkedLibrary("resolv"),
+            .linkedLibrary("bz2"),
+            .linkedLibrary("c++abi"),
+            .linkedLibrary("c++"),
           ]
         ),
         .binaryTarget(
