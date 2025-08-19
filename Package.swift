@@ -69,6 +69,7 @@ let package = Package(
             .target(name: "StackRendering"),
             .target(name: "OMSDK_Appodeal"),
             .target(name: "UnityAds"),
+            .target(name: "TnkRwdSdk2"),
           ],
           path: "Sources",
           linkerSettings: [
@@ -283,6 +284,11 @@ let package = Package(
             name: "UnityAds",
             url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/UnityAds.xcframework.zip",
             checksum: "1f482a2dbb154abf881e524de103a1bf64b7a426b7bd07d615d6fdd61bcea5fb"
+        ),
+        .binaryTarget(
+            name: "TnkRwdSdk2",
+            url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.1/TnkRwdSdk2.xcframework.zip",
+            checksum: "689caf4d9d8443bc286e5bf30ea8f553c7bfa7a8127b325de636780e0bcea319"
         ),
     ]
 )
