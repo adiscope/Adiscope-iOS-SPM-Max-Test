@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "adiscope-ios-pangle",
+      "identity" : "adsglobalpackage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/adiscope/Adiscope-iOS-Pangle.git",
+      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
       "state" : {
-        "revision" : "52167ad6c61b8d0c32af9686f53473f9350a3c6a",
-        "version" : "4.2.0"
+        "revision" : "f277b2d8f3e93ef910de8b77a3d81168f3819d3a",
+        "version" : "7.4.1-release.1"
       }
     },
     {
@@ -14,8 +14,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
       "state" : {
-        "revision" : "ed8cb1fddca69b5ea52b379deb7e57ccb8d901de",
-        "version" : "13.1.0"
+        "revision" : "c184b428415a05dcad488c6834e0bd02fe1d8f3e",
+        "version" : "13.3.1"
+      }
+    },
+    {
+      "identity" : "mintegraladsdk-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
+      "state" : {
+        "revision" : "b483374ae72193a547f97055132ac9d0a3a5cb7f",
+        "version" : "7.7.9"
       }
     },
     {
@@ -23,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
       "state" : {
-        "revision" : "ab4c3ec7546c7566fe49918fc9461df44e015537",
-        "version" : "12.2.0"
+        "revision" : "49efd19f8f4bbe130de7e2ee9e061d202a9a2a8b",
+        "version" : "12.8.0"
       }
     },
     {
@@ -32,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
       "state" : {
-        "revision" : "708a282840c2171ee63bd93b87afa49fe507d70e",
-        "version" : "2.7.0"
+        "revision" : "69b53394c5258b3fe688e625a998047d1f393497",
+        "version" : "3.0.0"
       }
     },
     {
@@ -41,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
       "state" : {
-        "revision" : "f2e059599dd6725b379675890c23591945ff433d",
-        "version" : "7.4.4"
+        "revision" : "1c4ced23357391bec3d55e5a8921d4f2dbc2fa8b",
+        "version" : "7.5.2"
       }
     }
   ],
