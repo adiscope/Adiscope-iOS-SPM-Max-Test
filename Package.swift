@@ -241,11 +241,11 @@ let package = Package(
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.5/DTBiOSSDK.xcframework.zip",
             checksum: "d81f5f96d2a52ead6255cab0e512d158950df51ccaa0798295a061ab60885728"
         ),
-        .binaryTarget(
-          name: "FBAudienceNetwork",
-          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.5/FBAudienceNetwork.zip",
-          checksum: "1866e97e8eea4c7ff47c331adc1ecf1d4efe46c31961dbd7a1cea04577dcd18f"
-        ),
+//        .binaryTarget(
+//          name: "FBAudienceNetwork",
+//          url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.5/FBAudienceNetwork.zip",
+//          checksum: "1866e97e8eea4c7ff47c331adc1ecf1d4efe46c31961dbd7a1cea04577dcd18f"
+//        ),
         .binaryTarget(
             name: "InMobiSDK",
             url: "https://github.com/adiscope/Adiscope-iOS-Developer/releases/download/2.1.5/InMobiSDK.xcframework.zip",
